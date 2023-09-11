@@ -4,3 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+	--color-primary-color: #23272a;
+	--color-secondary-color: #ffffff;
+	--color-backgound-odd-color: #f6f6f6;
+	--color-header-color: #255ee9;
+}
+
+.debug{
+    border: 1px solid black;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+/* header */
+header{
+    background-color: var(--color-header-color);
+}
