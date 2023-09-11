@@ -30,7 +30,7 @@ ul{
 section{
     background-color: var(--color-secondary-color);
 }
-section:nth-child(even){
+.even{
     background-color: var(--color-backgound-odd-color);
 }
 footer{
@@ -94,6 +94,21 @@ h4{
 p{
     padding-top: 30px;
     line-height: 1.625;
+}
+.wave{
+    min-height: 100px;
+    mask-image: url("../img/wave.svg");
+    -webkit-mask-image: url("../img/wave.svg");
+}
+.gray{
+    background-color: var(--color-backgound-odd-color);
+}
+.white{
+    background-color: var(--color-secondary-color);
+}
+.reverse{
+    transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
 }
 /* header */
 header{
