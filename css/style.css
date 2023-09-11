@@ -12,6 +12,7 @@ body{
 	--color-secondary-color: #ffffff;
 	--color-backgound-odd-color: #f6f6f6;
 	--color-header-color: #255ee9;
+    --color-disc-button-color: #7289da;
 }
 
 .debug{
@@ -25,16 +26,24 @@ body{
 ul{
     list-style: none;
 }
+
 section{
     background-color: var(--color-secondary-color);
 }
 section:nth-child(even){
     background-color: var(--color-backgound-odd-color);
 }
+footer{
+    background-color: var(--color-primary-color);
+    color: var(--color-secondary-color);
+    font-size: 0.8em;
+}
+li{
+    padding: 8px 10px;
+}
 a, a:hover{
     text-decoration: none;
     color: var(--color-secondary-color);
-    padding: 0px 10px;
 }
 .space-b-flex{
     display: flex;
@@ -47,7 +56,6 @@ a, a:hover{
     border: 1px solid transparent;
     padding: 10px 11px;
     border-radius: 18px;
-    margin-top: 15px;
 }
 h1{
     font-size: 2.5em;
@@ -57,7 +65,7 @@ h2{
     font-weight: 900;
     line-height: 1.25;
 }
-h3{
+h4{
     font-size: 2em;
     font-weight: 900;
     margin-bottom: 45px;
@@ -78,7 +86,7 @@ h3{
     margin-right: 16px;
 }
 .button.blue{
-    background-color: var(--color-header-color);
+    background-color: var(--color-disc-button-color);
     color: var(--color-secondary-color);
     font-weight: bold;
     margin-right: 16px;
@@ -91,6 +99,7 @@ p{
 header{
     background-color: var(--color-header-color);
     color: var(--color-secondary-color);
+    padding-top: 20px;
 }
 nav > a.button{
     background-color: var(--color-secondary-color);
@@ -101,6 +110,7 @@ nav > a.button{
 }
 .center > p{
     text-align: center;
+    margin-bottom: 15px;
 }
 #hero-header{
     background-image: url("../img/jumbo.png");
@@ -154,4 +164,41 @@ nav > a.button{
 #stars{
     max-width: 500px;
     vertical-align: bottom;
+}
+
+/* footer */
+.space-b-flex-footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+footer > div.container{
+    padding: 40px 0;
+}
+li > h3{
+    color: var(--color-disc-button-color);
+    font-size: 2.1em;
+    max-width: 200px;
+    line-height: 1.25;
+}
+#ita{
+    max-width: 18px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+li > h5{
+    color: var(--color-disc-button-color);
+    font-size: 1em;
+}
+.footer-list > li {
+    padding: 7px 0;
+}
+.container.space-b-flex-footer{
+    border-bottom: 1px solid var(--color-disc-button-color);
+}
+footer > div.container.end-of-page{
+    padding-top: 20px;
+    border-bottom: transparent;
 }
