@@ -25,6 +25,12 @@ body{
 ul{
     list-style: none;
 }
+section{
+    background-color: var(--color-secondary-color);
+}
+section:nth-child(even){
+    background-color: var(--color-backgound-odd-color);
+}
 a, a:hover{
     text-decoration: none;
     color: var(--color-secondary-color);
@@ -46,8 +52,13 @@ a, a:hover{
 h1{
     font-size: 2.5em;
 }
-.center > p{
-    text-align: center;
+h2{
+    font-size: 2.5em;
+    font-weight: 900;
+    line-height: 1.25;
+}
+.center{
+    justify-content: center;
 }
 .button.white{
     background-color: var(--color-secondary-color);
@@ -62,8 +73,9 @@ h1{
     margin-right: 16px;
 }
 p{
-    padding-top: 40px;
+    padding-top: 30px;
     line-height: 1.625;
+    font-weight: 600;
 }
 /* header */
 header{
@@ -77,17 +89,41 @@ nav > a.button{
     font-weight: bold;
     font-size: 0.9em;
 }
-.center{
-    justify-content: center;
-    min-height: 500px;
+.center > p{
+    text-align: center;
 }
 #hero-header{
     background-image: url("../img/jumbo.png");
     min-height: 500px;
     background-size: cover;
 }
+#hero-header > div{
+    min-height: 500px;
+}
 .hero-container{
     max-width: 800px;
     margin: 0 auto;
     padding: 0 10px;
+}
+
+/* main */
+.space-b-flex-sections{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 65px;
+}
+.space-b-flex-sections-reverse{
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 65px;
+}
+.space-b-flex-sections > div{
+    flex-wrap: wrap;
+    max-width: 300px;
 }
