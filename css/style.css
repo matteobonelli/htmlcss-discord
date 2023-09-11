@@ -57,6 +57,11 @@ h2{
     font-weight: 900;
     line-height: 1.25;
 }
+h3{
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 45px;
+}
 .center{
     justify-content: center;
 }
@@ -72,10 +77,15 @@ h2{
     font-weight: bold;
     margin-right: 16px;
 }
+.button.blue{
+    background-color: var(--color-header-color);
+    color: var(--color-secondary-color);
+    font-weight: bold;
+    margin-right: 16px;
+}
 p{
     padding-top: 30px;
     line-height: 1.625;
-    font-weight: 600;
 }
 /* header */
 header{
@@ -126,4 +136,22 @@ nav > a.button{
 .space-b-flex-sections > div{
     flex-wrap: wrap;
     max-width: 300px;
+}
+.paragraph{
+    font-weight: 600;
+}
+#last-section{
+    padding: 65px;
+    padding-bottom: 100px;
+}
+#last-section-img{
+    min-width: 1000px;
+}
+#last-section > div{
+    max-width: 840px;
+    text-align: center;
+}
+#stars{
+    max-width: 500px;
+    vertical-align: bottom;
 }
