@@ -101,13 +101,14 @@ header{
     color: var(--color-secondary-color);
     padding-top: 20px;
 }
-nav > a.button{
+nav > a.button, nav > a.button:hover{
     background-color: var(--color-secondary-color);
     color: var(--color-primary-color);
     padding: 8px 12px;
     font-weight: bold;
     font-size: 0.9em;
 }
+
 .center > p{
     text-align: center;
     margin-bottom: 15px;
@@ -183,8 +184,9 @@ li > h3{
     max-width: 200px;
     line-height: 1.25;
 }
+
 #ita{
-    max-width: 18px;
+    max-width: 25px;
     margin-right: 5px;
     vertical-align: middle;
 }
@@ -193,7 +195,7 @@ li > h5{
     font-size: 1em;
 }
 .footer-list > li {
-    padding: 7px 0;
+    padding: 8px 0;
 }
 .container.space-b-flex-footer{
     border-bottom: 1px solid var(--color-disc-button-color);
@@ -201,4 +203,8 @@ li > h5{
 footer > div.container.end-of-page{
     padding-top: 20px;
     border-bottom: transparent;
+}
+.fa-brands{
+    font-size: 20px;
+    padding-right: 20px;
 }
