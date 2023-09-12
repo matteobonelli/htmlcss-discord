@@ -253,3 +253,81 @@ footer > div.container.end-of-page{
     color: var(--color-secondary-color);
     border: 0px;
 }
+/* login-page */
+#login{
+    background-image: url("../img/logim-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+#login header{
+    background-color: #404eed;
+    padding-top: 20px;
+}
+
+#login .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-flow: row nowrap;
+    
+}
+#login main{
+    min-height: 100vh;
+}
+#login .login-screen{
+    min-width: 30%;
+    background-color: var(--color-primary-color);
+    font-size: 0.9em;
+}
+#login .username{
+    padding: 5%;
+    max-width: 100%;
+}
+#login h4{
+    color: var(--color-secondary-color);
+    margin: 0 auto;
+    padding: 6px;
+}
+#login .gray-typing{
+    color: var(--color-backgound-odd-color);
+    padding-bottom: 10px;
+    
+}
+#login h4, #login .gray-typing{
+    text-align: center;
+}
+#login .box{
+    color: var(--color-backgound-odd-color);
+    font-size: 0.7em;
+    padding: 6px;
+}
+#login .data{
+    padding: 6px 0px;
+}
+#login .login-form{
+    background-color: black;
+    color: var(--color-secondary-color);
+    max-width: 100%;
+    width: 100%;
+    font-size: 20px;
+    border: 1px solid black;
+}
+#login a{
+    color: var(--color-disc-button-color);
+    padding-top: 6px;
+}
+#login .password-forgot{
+    display: block;
+}
+#login .button.blue{
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 4px;
+    display: block;
+    margin: 0;
+    filter: none;
+}
+
+
