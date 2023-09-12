@@ -283,11 +283,11 @@ footer > div.container.end-of-page{
     border-radius: 20px;
 }
 #login .username{
-    padding: 5%;
+    padding: 5% 10px;
     max-width: 60%;
 }
 #login .qr-code-box{
-    padding: 5%;
+    padding: 5% 10px;
     max-width: 40%;
 }
 #login h5{
@@ -337,7 +337,7 @@ footer > div.container.end-of-page{
     filter: none;
 }
 #login .qr-code{
-    width: 70%;
+    max-width: 55%;
     margin: auto;
     padding-bottom: 20px;
 }
@@ -348,6 +348,7 @@ footer > div.container.end-of-page{
     border-radius: 10px;
 }
 #login .section{
-    max-width: 100% ;
+    max-width: 85% ;
+    margin: 0 auto;
 }
 
