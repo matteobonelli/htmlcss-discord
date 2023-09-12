@@ -259,43 +259,49 @@ footer > div.container.end-of-page{
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
+    min-height: 100vh;
 }
 #login header{
     background-color: #404eed;
     padding-top: 20px;
 }
-
+#login .login-main.container{
+    min-height: 80vh;
+}
 #login .center{
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
     flex-flow: row nowrap;
-    
 }
-#login main{
-    min-height: 100vh;
-}
+
 #login .login-screen{
-    min-width: 30%;
+    min-width: 60%;
     background-color: var(--color-primary-color);
     font-size: 0.9em;
+    border-radius: 20px;
 }
 #login .username{
     padding: 5%;
-    max-width: 100%;
+    max-width: 60%;
 }
-#login h4{
+#login .qr-code-box{
+    padding: 5%;
+    max-width: 40%;
+}
+#login h5{
     color: var(--color-secondary-color);
     margin: 0 auto;
     padding: 6px;
+    font-size: 1.3em;
 }
 #login .gray-typing{
     color: var(--color-backgound-odd-color);
     padding-bottom: 10px;
     
 }
-#login h4, #login .gray-typing{
+#login h5, #login .gray-typing{
     text-align: center;
 }
 #login .box{
@@ -329,5 +335,18 @@ footer > div.container.end-of-page{
     margin: 0;
     filter: none;
 }
-
+#login .qr-code{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+#login .qr-code img{
+    max-width: 100%;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+#login .section{
+    max-width: 100% ;
+}
 
